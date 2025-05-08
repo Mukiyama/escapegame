@@ -1,3 +1,4 @@
+document.getElementById('popup').style.display = 'none';
 const cityTexts = {
     paris: "Paris est la capitale de la France. C’est ici que commence ta mission.",
     londres: "Londres t'attend avec une énigme bien gardée sous Big Ben.",
