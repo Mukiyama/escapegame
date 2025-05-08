@@ -13,9 +13,9 @@ const cityTexts = {
 document.querySelectorAll('.hotspot').forEach(hotspot => {
     hotspot.addEventListener('click', () => {
         const city = hotspot.getAttribute('data-city');
-        const text = cityTexts[city] || "Aucun texte pour cette ville.";
+        const text = cityTexts[city] || "Aucune information disponible.";
         document.getElementById('popup-text').innerText = text;
-        document.getElementById('popup').style.display = 'block';
+        document.getElementById('popup').style.display = 'flex'; // ou block si tu préfères
     });
 });
 
