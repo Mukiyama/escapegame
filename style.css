@@ -2,40 +2,50 @@ body {
     margin: 0;
     font-family: 'Georgia', serif;
     background-image: url('images/europe_map.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #e7dcc2;
     color: #3b2e1a;
     text-align: center;
 }
 
 h1 {
-    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
 
 .map-container {
     position: relative;
-    display: inline-block;
-    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .map-image {
-    width: 90vw;
-    max-width: 1000px;
-    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+    pointer-events: none; /* rend l'image non cliquable, pour laisser les hotspots réagir */
 }
 
 .hotspot {
     position: absolute;
+    z-index: 2;
     width: 20px;
     height: 20px;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(139, 0, 0, 0.5);
     border-radius: 50%;
     cursor: pointer;
     transform: translate(-50%, -50%);
 }
+
 
 /* Popup style */
 .popup {
