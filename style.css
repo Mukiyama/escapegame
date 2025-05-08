@@ -1,8 +1,12 @@
 body {
     margin: 0;
-    font-family:  'IM Fell English', serif;
-    background-color: #d6b863;
-    text-align: center;
+    font-family: 'IM Fell English', serif;
+    background-image: url('images/europe_map.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #3b2e1a;
 }
 
 h1 {
