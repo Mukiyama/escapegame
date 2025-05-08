@@ -29,15 +29,13 @@ h1 {
 
 .map-inner {
     position: relative;
-    width: 100%;
-    max-width: 1000px;
-    aspect-ratio: 1000 / 700; /* fixe le ratio pour éviter les déformations */
+    height: 100vh;
+    width: auto;
 }
 
 .map-image {
-    width: 100%;
     height: 100%;
-    object-fit: contain;
+    width: auto;
     display: block;
 }
 
@@ -51,6 +49,7 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: 2;
 }
+
 
 
 /* Popup style */
