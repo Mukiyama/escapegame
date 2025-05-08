@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: sans-serif;
-    background-color: #f3f3f3;
+    font-family:  'IM Fell English', serif;
+    background-color: #d6b863;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ h1 {
 }
 
 .popup-content {
-    background-color: white;
+    background-color: #f8e090;
     padding: 25px 30px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -53,6 +53,7 @@ h1 {
     max-width: 90%;
     text-align: center;
     animation: slideUp 0.3s ease;
+    font-family: 'Georgia', serif;
 }
 
 .close {
