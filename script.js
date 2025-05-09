@@ -1,14 +1,22 @@
 document.getElementById('popup').style.display = 'none';
 const cityTexts = {
-    paris: "Paris est la capitale de la France. C’est ici que commence ta mission.",
-    londres: "Londres t'attend avec une énigme bien gardée sous Big Ben.",
-    moscou: "À Moscou, les secrets sont gelés depuis la guerre froide.",
-    rome: "Rome cache ses indices dans les ruines antiques.",
-    oslo: "Oslo est calme, mais pleine de mystères nordiques.",
-    madrid: "Madrid t’offre un soleil brûlant et une énigme brûlante.",
-    athenes: "Athènes, berceau des énigmes logiques.",
+    paris: "La pièce où l'on prépare les mets",
+    londres: "Par là où vous êtes arrivé en premier",
+    moscou: "Le petit coin stratégique pour méditer sur ses choix de vie",
+    rome: "La grande salle voisine",
+    stockholm: "L'endroit parfait pour jouer au Basket",
+    madrid: "L'endroit où se tiennent les musiciens",
+    athenes: "La bibliothèque secrète pour érudits solitaires",
     bucarest: "Bucarest abrite un code que seuls les plus rusés sauront lire.",
-    helsinki: "Helsinki te défie avec son froid et son calme apparent."
+    dublin: "La remise aux tisanes poussiéreuses"
+    prague: "Le palier suspendu entre ciel et terre"
+    varsovie: "Le débarras où résonnent les objets oubliés"
+    bucarest: "Le local technique envahi de silence"
+    sofia: "Le placard fleuri qu’on n’ouvre jamais vraiment"
+    vienne: "Le parquet ciré réservé aux pas feutrés"
+    berlin: "Le vestiaire où s'accumulent les manteaux"
+    kiev:"L’escalier au souffle glacial"
+    
 };
 
 document.querySelectorAll('.hotspot').forEach(hotspot => {
