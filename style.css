@@ -38,7 +38,6 @@ h1 {
   height: 100%;
   object-fit: contain;
   display: block;
-  border: 2px solid #aaa;
 }
 
 .hotspot {
