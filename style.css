@@ -30,7 +30,7 @@ h1 {
 
 .map-inner {
   position: relative;
-  height: 90vh;       /* ← clé : la carte prend 90% de la hauteur écran */
+  height: 70vh;       /* ← clé : la carte prend 90% de la hauteur écran */
   width: auto;
 }
 
