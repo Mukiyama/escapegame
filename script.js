@@ -1,7 +1,7 @@
 document.getElementById('popup').style.display = 'none';
 const cityTexts = {
     paris: "La pièce où l'on prépare les mets",
-    londres: "Par là où vous êtes arrivé en premier",
+    londres: "Par là où vous êtes arrivés en premier",
     moscou: "Le petit coin stratégique pour méditer sur ses choix de vie",
     rome: "La grande salle voisine",
     stockholm: "L'endroit parfait pour jouer au Basket",
