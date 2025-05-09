@@ -19,17 +19,18 @@ h1 {
 }
 
 .map-container {
-  width: 100vw;
-  max-width: 1000px;
-  padding: 10px;
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
 }
 
 
 .map-inner {
   position: relative;
   width: 100%;
-  aspect-ratio: 1000 / 700; /* conserve les proportions de la carte */
+  max-width: 1000px;
+  aspect-ratio: 1000 / 700;
 }
 
 .map-image {
