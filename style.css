@@ -29,7 +29,7 @@ h1 {
 .map-inner {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1500px;
   aspect-ratio: 1000 / 700;
 }
 
