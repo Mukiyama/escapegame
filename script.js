@@ -7,16 +7,14 @@ const cityTexts = {
     stockholm: "L'endroit parfait pour jouer au Basket",
     madrid: "L'endroit où se tiennent les musiciens",
     athenes: "La bibliothèque secrète pour érudits solitaires",
-    bucarest: "Bucarest abrite un code que seuls les plus rusés sauront lire.",
-    dublin: "La remise aux tisanes poussiéreuses"
-    prague: "Le palier suspendu entre ciel et terre"
-    varsovie: "Le débarras où résonnent les objets oubliés"
-    bucarest: "Le local technique envahi de silence"
-    sofia: "Le placard fleuri qu’on n’ouvre jamais vraiment"
-    vienne: "Le parquet ciré réservé aux pas feutrés"
-    berlin: "Le vestiaire où s'accumulent les manteaux"
-    kiev:"L’escalier au souffle glacial"
-    
+    bucarest: "Le local technique envahi de silence",
+    dublin: "La remise aux tisanes poussiéreuses",
+    prague: "Le palier suspendu entre ciel et terre",
+    varsovie: "Le débarras où résonnent les objets oubliés",
+    sofia: "Le placard fleuri qu’on n’ouvre jamais vraiment",
+    vienne: "Le parquet ciré réservé aux pas feutrés",
+    berlin: "Le vestiaire où s'accumulent les manteaux",
+    kiev: "L’escalier au souffle glacial"
 };
 
 document.querySelectorAll('.hotspot').forEach(hotspot => {
