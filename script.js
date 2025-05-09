@@ -14,6 +14,7 @@ const cityTexts = {
     sofia: "Le placard fleuri qu’on n’ouvre jamais vraiment",
     vienne: "Le parquet ciré réservé aux pas feutrés",
     berlin: "Le vestiaire où s'accumulent les manteaux",
+    bruxelles: "L’entrée de service aux reflets ternes",
     kiev: "L’escalier au souffle glacial"
 };
 
