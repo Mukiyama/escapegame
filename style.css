@@ -19,35 +19,36 @@ h1 {
 }
 
 .map-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+  width: 100vw;
+  max-width: 1000px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
+
 .map-inner {
-    position: relative;
-    height: 100vh;
-    width: auto;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1000 / 700; /* conserve les proportions de la carte */
 }
 
 .map-image {
-    height: 100%;
-    width: auto;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border: 2px solid #aaa;
 }
 
 .hotspot {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(139, 0, 0, 0.5);
-    border-radius: 50%;
-    cursor: pointer;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(139, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 
